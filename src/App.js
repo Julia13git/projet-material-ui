@@ -1,12 +1,18 @@
 import "./App.css";
-import Boutton from "./components/Boutton/boutton";
-import Text from "./components/Text/text";
+import ButtonMui from "./components/ButtonMui/buttonmui";
+import SelectMui from "./components/SelectMui/selectmui";
+import TextFieldMui from "./components/TextFieldMui/textfieldmui";
+import ToggleButtonsMultiple from "./components/ToggleButtonMui/togglebuttonmui";
+import TypographyMui from "./components/TypographyMui/typographymui";
 
 function App() {
   return (
     <div>
-      <Text />
-      <Boutton />
+      <TypographyMui />
+      <ButtonMui />
+      <ToggleButtonsMultiple />
+      <TextFieldMui />
+      <SelectMui />
     </div>
   );
 }

@@ -4,26 +4,11 @@ import {
   Typography,
   IconButton,
   ButtonGroup,
-  ToggleButtonGroup,
-  ToggleButton,
 } from "@mui/material";
 
 import SendIcon from "@mui/icons-material/Send";
-import FormatBoldIcon from "@mui/icons-material/FormatBold";
-import FormatItalicIcon from "@mui/icons-material/FormatItalic";
-import FormatUnderlinedIcon from "@mui/icons-material/FormatUnderlined";
-import { useState } from "react";
-import ToggleButtonsMultiple from "../ToggleBtn/togglebtn";
 
-export default function Boutton() {
-  const [formats, setFormats] = useState(() => [
-    "bold",
-    "italic",
-    "underlined",
-  ]);
-  const handleFormat = (event, newFormats) => {
-    setFormats(newFormats);
-  };
+export default function ButtonMui() {
   return (
     <>
       <Typography variant="h3">Buttons types</Typography>
@@ -118,25 +103,6 @@ export default function Boutton() {
           <Button>Right</Button>
         </ButtonGroup>
       </Stack>
-      <Typography variant="h3">Toggle button</Typography>
-      {/* <Stack direction="row">
-        <ToggleButtonGroup
-          aria-label="text formatting"
-          value={formats}
-          onChange={handleFormat}
-        >
-          <ToggleButton>
-            <FormatBoldIcon value="bold" aria-label="bold" />
-          </ToggleButton>
-          <ToggleButton>
-            <FormatItalicIcon value="italic" aria-label="italic" />
-          </ToggleButton>
-          <ToggleButton>
-            <FormatUnderlinedIcon value="underlined" aria-label="underlined" />
-          </ToggleButton>
-        </ToggleButtonGroup>
-      </Stack> */}
-      <ToggleButtonsMultiple />
     </>
   );
 }

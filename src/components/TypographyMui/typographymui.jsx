@@ -1,6 +1,6 @@
 import { Typography } from "@mui/material";
 
-export default function Text() {
+export default function TypographyMui() {
   return (
     <>
       {/* Le composant Typography */}
