@@ -1,5 +1,7 @@
 import "./App.css";
 import ButtonMui from "./components/ButtonMui/buttonmui";
+import CheckboxMui from "./components/CheckboxMui/checkboxmui";
+import RadioButtonMui from "./components/RadioButtonMui/radiobuttonmui";
 import SelectMui from "./components/SelectMui/selectmui";
 import TextFieldMui from "./components/TextFieldMui/textfieldmui";
 import ToggleButtonsMultiple from "./components/ToggleButtonMui/togglebuttonmui";
@@ -13,6 +15,8 @@ function App() {
       <ToggleButtonsMultiple />
       <TextFieldMui />
       <SelectMui />
+      <RadioButtonMui />
+      <CheckboxMui />
     </div>
   );
 }

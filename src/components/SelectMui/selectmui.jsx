@@ -5,12 +5,12 @@ export default function SelectMui() {
   const [country, setCountry] = useState("");
   const [countries, setCountries] = useState([]);
 
-  console.log({ country });
+  // console.log({ country });
   const handleChange = (event) => {
     setCountry(event.target.value);
   };
 
-  console.log({ countries });
+  // console.log({ countries });
   const handleChangeCountries = (event) => {
     setCountries(event.target.value);
   };
