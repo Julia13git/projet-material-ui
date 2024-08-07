@@ -1,8 +1,9 @@
-import "./App.css";
+// import "./App.css";
 import AutocompleteMui from "./components/AutocompleteMui/autocompletemui";
 import BoxMui from "./components/BoxMui/boxmui";
 import ButtonMui from "./components/ButtonMui/buttonmui";
 import CheckboxMui from "./components/CheckboxMui/checkboxmui";
+import GridMui from "./components/GridMui/gridmui";
 import RadioButtonMui from "./components/RadioButtonMui/radiobuttonmui";
 import RatingMui from "./components/RatingMui/ratingmui";
 import SelectMui from "./components/SelectMui/selectmui";
@@ -27,6 +28,7 @@ function App() {
       <AutocompleteMui />
       <BoxMui />
       <StackMui />
+      <GridMui />
     </div>
   );
 }
