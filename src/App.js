@@ -2,6 +2,7 @@ import "./App.css";
 import AutocompleteMui from "./components/AutocompleteMui/autocompletemui";
 import BoxMui from "./components/BoxMui/boxmui";
 import ButtonMui from "./components/ButtonMui/buttonmui";
+import CardMui from "./components/CardMui/cardmui";
 import CheckboxMui from "./components/CheckboxMui/checkboxmui";
 import GridMui from "./components/GridMui/gridmui";
 import PaperMui from "./components/PaperMui/papermui";
@@ -31,6 +32,7 @@ function App() {
       <StackMui />
       <GridMui />
       <PaperMui />
+      <CardMui />
     </>
   );
 }
