@@ -1,8 +1,8 @@
-import { Typography } from "@mui/material";
+import { Stack, Typography } from "@mui/material";
 
 export default function TypographyMui() {
   return (
-    <>
+    <Stack>
       {/* Le composant Typography */}
       <Typography variant="h1">Heading-h1</Typography>
       <Typography variant="h2">Heading-h2</Typography>
@@ -26,6 +26,6 @@ export default function TypographyMui() {
       <Typography variant="h5" component="h3" gutterBottom>
         Heading- gutterBottom(margin 0.35em)
       </Typography>
-    </>
+    </Stack>
   );
 }
